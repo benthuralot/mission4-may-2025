@@ -1,39 +1,20 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "type": "module",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@google/genai": "^1.4.0",
     "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.27.4",
-    "@babel/preset-env": "^7.27.2",
-    "babel-jest": "^30.0.0",
-    "jest": "^30.0.0",
-    "supertest": "^7.1.1"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.js$": [
-        "babel-jest",
-        {
-          "presets": [
-            "@babel/preset-env"
-          ]
-        }
-      ]
-    },
-    "testEnvironment": "node"
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   }
 }

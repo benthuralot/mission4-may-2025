@@ -1,18 +1,12 @@
-import express from 'express';
-import dotenv from 'dotenv';
-import insuranceChatRoutes from './routes/insuranceChatRoutes.js';
-
-dotenv.config();
+const dotenv = require("dotenv").config();
+const express = require("express");
+const cors = require("cors");
+const chatRoutes = require("./routes/chatRoutes");
 
 const app = express();
-
+app.use(cors());
 app.use(express.json());
-
-app.use('/api', insuranceChatRoutes);
+app.use("/api/chat", chatRoutes);
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
-// This code sets up an Express server that listens on a specified port.
-// It uses dotenv to load environment variables and sets up a route for handling insurance chat requests.   
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
