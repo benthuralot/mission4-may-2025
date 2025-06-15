@@ -128,6 +128,17 @@ Mission-4/
 ### Prerequisites
 
 * Node.js & npm
+* ⚠️ **Important:** You must download your **Google Gemini API key**:
+  - Create a project in Google Cloud
+  - Enable the Gemini API
+  - Generate an API key
+
+* ⚠️ **Important:** Create a `.env` file in the **backend** folder root and paste your Gemini API key there as follows:
+
+```env
+# .env file
+GENERATIVE_AI_API_KEY=your-google-gemini-api-key-here
+```
 
 ### Installation
 
