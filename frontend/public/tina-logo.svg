@@ -1,0 +1,20 @@
+<svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tina Chatbot Logo">
+  <title>Tina Chatbot Logo</title>
+  <g font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif">
+    <g transform="translate(50,0)">
+      <!-- Gemini Star with white fill only -->
+      <g transform="translate(0,20) scale(1.6)">
+        <path fill="#FFFFFF" d="M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81"></path>
+      </g>
+
+      <!-- Tina Text -->
+      <text fill="#0057B8" font-weight="700" font-size="36" x="50" y="45">Tina</text>
+
+      <!-- Tagline -->
+      <text font-size="14">
+        <tspan x="50" y="65" fill="#FFFFFF">Your AI Insurance </tspan>
+        <tspan fill="#D71920">Advisor</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
