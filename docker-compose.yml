@@ -2,7 +2,7 @@ services:
   backend:
     build: ./backend
     ports:
-      - "4000:4000"
+      - "5000:5000"
     volumes:
       - ./backend:/app
     environment:
@@ -13,4 +13,4 @@ services:
     ports:
       - "5173:5173"
     environment:
-      - VITE_API_URL=http://localhost:4000
+      - VITE_API_URL=http://localhost:5000
