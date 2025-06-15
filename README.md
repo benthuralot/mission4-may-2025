@@ -43,7 +43,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [How to Use the Turners Insurance Chatbot](#how-to-use-the-turners-insurance-chatbot)
-* [Docker & CI/CD Setup](#docker--cicd-setup)
+* [Docker & CI/CD Setup](#docker-&-ci/cd-setup)
 * [Contributing](#contributing)
 * [Contact](#contact)
 
@@ -51,13 +51,21 @@
 
 ## About The Project
 
-This is an AI-powered mock interview web app built with React and a backend using Google Gemini API. Users can enter a job title to start a personalized interview session. The AI interviewer asks one question at a time, simulating a real interview experience by covering:
+### Tina — Your AI Insurance Buddy 🤖🚗
 
-* 🛠️ Technical/Role-Specific Skills
-* 🤝 Soft Skills & Behavioral Fit
-* 🎯 Culture Fit & Motivation
+Chat with Tina, who asks smart questions to find the best insurance for you!
 
-The conversation is dynamically generated based on user responses, helping candidates practice and refine their interview skills in a realistic, interactive way.
+💬 Real-time chat
+
+👋 Starts by asking permission
+
+❓ Asks helpful questions (no boring scripts!)
+
+🚘 Recommends the perfect policy based on your answers
+
+Powered by Google Gemini AI to make insurance easy and fun!
+
+⚠️ Important: Don’t forget to create your own Google Gemini API key and add it to your .env file to make the app work!
 
 ---
 
