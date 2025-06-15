@@ -36,14 +36,14 @@
 ## Table of Contents
 
 * [About The Project](#about-the-project)
-* [Folder Structure](#folder-structure)
+* [📁 Folder Structure](#folder-structure)
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
 
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [How to Use the Turners Insurance Chatbot](#how-to-use-the-turners-insurance-chatbot)
-* [Docker & CI/CD Setup](#docker-&-ci/cd-setup)
+* [🐳 Docker & CI/CD Setup](#docker-ci-cd-setup)
 * [Contributing](#contributing)
 * [Contact](#contact)
 
@@ -68,7 +68,7 @@ Powered by Google Gemini AI to make insurance easy and fun!
 ⚠️ Important: Don’t forget to create your own Google Gemini API key and add it to your .env file to make the app work!
 
 ---
-
+<a id="folder-structure"></a>
 ## 📁 Folder Structure
 
 ```bash
@@ -172,7 +172,7 @@ Start by greeting Tina, the chatbot, then answer her questions to receive person
 
 
 ---
-
+<a id="docker-ci-cd-setup"></a>
 ## 🐳 Docker & CI/CD Setup
 
 ### Local Docker Development
